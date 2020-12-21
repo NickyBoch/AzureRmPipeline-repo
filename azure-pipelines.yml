@@ -19,7 +19,7 @@ steps:
     resourceGroupName: 'AzureRmPipeline-rg'
     location: 'Central US'
     templateLocation: 'Linked artifact'
-    csmFile: 'AzureRmPipeline-repo/azuredeploy.json'
+    csmFile: 'azuredeploy.json'
     overrideParameters: '-projectName AProjectName -linkedTemplateUri https://raw.githubusercontent.com/NickyBoch/AzureRmPipeline-repo/main/azuredeploy.json?token=ACMP6YSMZH4AKIQW3ARTAI274DPM4'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
